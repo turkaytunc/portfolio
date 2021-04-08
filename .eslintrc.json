@@ -11,7 +11,7 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "linebreak-style": ["error", "windows"],
+    "linebreak-style": "off",
     "react/jsx-filename-extension": 0,
     "import/extensions": ["error", "never"],
     "no-unused-vars": "off",
