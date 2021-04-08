@@ -1,5 +1,5 @@
 # Portfolio Website
 
-[Visit Website](https://www.turkaytunc.com)
+[Github Pages Development](https://turkaytunc.github.io/portfolio)
 
-[Github Pages Dev](https://turkaytunc.github.io/portfolio)
+[Old Website](https://www.turkaytunc.com)
