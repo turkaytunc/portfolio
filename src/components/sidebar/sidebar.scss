@@ -1,0 +1,33 @@
+@use '/src/scss';
+
+.sidebar-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  background-color: scss.$sidebar-background-color;
+  opacity: 0.8;
+  animation: trans 1s cubic-bezier(0.02, 0.5, 0.03, 1) forwards;
+  padding: 10rem 4rem;
+  height: 100vh;
+  z-index: 1;
+  border-bottom-right-radius: 3px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes trans {
+  from {
+    transform: translateX(-400px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

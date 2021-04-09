@@ -1,0 +1,22 @@
+.hamburger-button-container {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  padding: 0;
+
+  button {
+    border: none;
+    display: block;
+    background-color: #333;
+
+    div {
+      background-color: white;
+      height: 0.3rem;
+      width: 2rem;
+
+      &:nth-child(-n + 2) {
+        margin-bottom: 0.2rem;
+      }
+    }
+  }
+}
