@@ -11,7 +11,7 @@ function App() {
       <div className="app-container">
         <div className="app-mobile-menu">
           <HamburgerButton setShowSidebar={setShowSidebar} />
-          {showSidebar && <Sidebar />}
+          <Sidebar showSidebar={showSidebar} />
         </div>
 
         <main className="app-main">
