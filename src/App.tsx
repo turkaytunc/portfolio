@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import './App.scss';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Home, Sidebar } from 'src/components';
-import HamburgerButton from './components/hamburger-button/HamburgerButton';
+import { Home, Sidebar, HamburgerButton } from 'src/components';
 
 function App() {
   const [showSidebar, setShowSidebar] = useState(false);
