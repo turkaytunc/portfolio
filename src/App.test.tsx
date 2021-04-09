@@ -13,7 +13,7 @@ describe('<App />', () => {
         <App />
       </Router>
     );
-    const linkElement = await screen.findByText(/Home/i);
+    const linkElement = await screen.findByText(/footer/i);
     expect(linkElement).toBeInTheDocument();
   });
 });
