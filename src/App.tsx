@@ -1,19 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.scss';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Home } from 'src/components';
+import { Home, Sidebar } from 'src/components';
+import HamburgerButton from './components/hamburger-button/HamburgerButton';
 
 function App() {
+  const [showSidebar, setShowSidebar] = useState(false);
   return (
     <BrowserRouter basename="/portfolio">
-      <nav>navigation</nav>
-      <main className="app-main">
-        <Switch>
-          <Route exact path="/" component={Home} />
-        </Switch>
-      </main>
-      <footer>footer</footer>
+      <div className="app-container">
+        <div className="app-mobile-menu">
+          <HamburgerButton setShowSidebar={setShowSidebar} />
+          {showSidebar && <Sidebar />}
+        </div>
+
+        <main className="app-main">
+          <Switch>
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </main>
+        <footer>footer</footer>
+      </div>
     </BrowserRouter>
   );
 }
