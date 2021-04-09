@@ -13,10 +13,27 @@
       background-color: white;
       height: 0.3rem;
       width: 2rem;
+      transition: transform 0.2s ease-in-out;
 
       &:nth-child(-n + 2) {
         margin-bottom: 0.2rem;
       }
     }
+  }
+}
+
+.hamburger-div-1 {
+  &.open {
+    transform: rotateZ(-40deg) translate3d(-6px, 5px, 0) scale(0.8);
+  }
+}
+.hamburger-div-2 {
+  &.open {
+    visibility: hidden;
+  }
+}
+.hamburger-div-3 {
+  &.open {
+    transform: rotateZ(40deg) translate3d(-6px, -6px, 0) scale(0.8);
   }
 }
