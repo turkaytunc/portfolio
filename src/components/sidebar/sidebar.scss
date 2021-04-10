@@ -13,6 +13,12 @@
   border-bottom-right-radius: 3px;
   a {
     color: scss.$text-color-dark;
+    &:visited {
+      color: scss.$text-color-dark;
+    }
+    &:active {
+      color: orangered;
+    }
   }
 }
 

@@ -1,0 +1,7 @@
+@use '/src/scss';
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    color: scss.$text-color-dark;
+  }
+}

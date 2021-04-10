@@ -17,3 +17,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: scss.$background-color-light;
+  }
+}

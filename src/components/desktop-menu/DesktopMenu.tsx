@@ -1,9 +1,10 @@
 import React from 'react';
+import './desktop-menu.scss';
 import Navbar from '../navbar/Navbar';
 
 const DesktopMenu = () => {
   return (
-    <aside>
+    <aside className="desktop-menu-container">
       <Navbar />
     </aside>
   );

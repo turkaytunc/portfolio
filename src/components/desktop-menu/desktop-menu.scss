@@ -1,0 +1,7 @@
+@use '/src/scss';
+
+.desktop-menu-container {
+  background-color: scss.$background-color-dark;
+  width: 100%;
+  padding: 1rem;
+}
