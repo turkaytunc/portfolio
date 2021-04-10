@@ -22,7 +22,7 @@ function App() {
             <Route exact path="/" component={Home} />
           </Switch>
         </main>
-        <footer>footer</footer>
+        <footer className="app-footer">footer</footer>
       </div>
     </BrowserRouter>
   );

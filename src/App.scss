@@ -10,15 +10,27 @@
 @media screen and (min-width: 800px) {
   .app-container {
     display: grid;
+    grid-template-columns: 1fr 4fr;
     grid-template-areas:
-      'desktop-aside main main main'
-      'desktop-aside main main main'
-      'footer footer footer footer';
+      'desktop main'
+      'desktop main'
+      'footer footer';
   }
   .app-mobile-menu {
     display: none;
   }
+
   .app-desktop-menu {
     display: block;
+    grid-area: desktop;
+  }
+
+  .app-main {
+    grid-area: main;
+    padding-right: 2rem;
+  }
+
+  .app-footer {
+    grid-area: footer;
   }
 }
