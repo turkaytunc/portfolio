@@ -28,6 +28,18 @@ describe('<App />', () => {
 
     fireEvent.click(await screen.findByRole('button'));
 
-    expect(await screen.findByText('Home')).toBeTruthy();
+    expect(await screen.findByTestId('home-container')).toBeTruthy();
+  });
+
+  it('should fire hamburger button click event and find sidebar menu on dom', async () => {
+    const history = createBrowserHistory();
+    history.push('/portfolio/articles');
+    render(
+      <Router history={history}>
+        <App />
+      </Router>
+    );
+
+    expect(await screen.findByTestId('articles-container')).toBeTruthy();
   });
 });
