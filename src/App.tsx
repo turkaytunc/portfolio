@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.scss';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Home, Sidebar, HamburgerButton, DesktopMenu } from 'src/components';
+import { Home, Sidebar, HamburgerButton, DesktopMenu, Projects } from 'src/components';
 
 function App() {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -20,9 +20,10 @@ function App() {
         <main className="app-main">
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/articles" component={() => <div>Articles</div>} />
           </Switch>
         </main>
-        <footer className="app-footer">footer</footer>
       </div>
     </BrowserRouter>
   );

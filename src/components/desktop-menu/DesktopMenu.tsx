@@ -5,7 +5,11 @@ import Navbar from '../navbar/Navbar';
 const DesktopMenu = () => {
   return (
     <aside className="desktop-menu-container">
-      <Navbar />
+      <section className="desktop-menu-photo">Photo - Name</section>
+      <section>
+        <Navbar />
+      </section>
+      <footer className="desktop-menu-footer"> Footer </footer>
     </aside>
   );
 };

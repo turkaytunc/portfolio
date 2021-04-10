@@ -15,11 +15,10 @@
     padding: 0;
 
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 250px 4fr;
     grid-template-areas:
       'desktop main'
-      'desktop main'
-      'footer footer';
+      'desktop main';
   }
   .app-mobile-menu {
     display: none;
@@ -33,9 +32,5 @@
   .app-main {
     grid-area: main;
     padding-right: 2rem;
-  }
-
-  .app-footer {
-    grid-area: footer;
   }
 }
