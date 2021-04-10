@@ -2,9 +2,10 @@ import React from 'react';
 import Navbar from '../navbar/Navbar';
 import './sidebar.scss';
 
-const Sidebar = () => {
+const Sidebar = ({ showSidebar }: { showSidebar: boolean }) => {
+  const currentClass = showSidebar ? 'sidebar-in' : 'sidebar-out';
   return (
-    <aside className="sidebar-container">
+    <aside className={`sidebar-container ${currentClass}`}>
       <Navbar />
     </aside>
   );

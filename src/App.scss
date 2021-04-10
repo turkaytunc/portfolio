@@ -1,10 +1,36 @@
+@use '/src/scss';
+
 .app-container {
   position: relative;
   padding: 2rem;
 }
 
-@media screen and (min-width: 800px) {
+.app-desktop-menu {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-color: scss.$background-color-light;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 250px 4fr;
+    grid-template-areas:
+      'desktop main'
+      'desktop main';
+  }
   .app-mobile-menu {
     display: none;
+  }
+
+  .app-desktop-menu {
+    display: block;
+    grid-area: desktop;
+  }
+
+  .app-main {
+    grid-area: main;
+    padding-right: 2rem;
   }
 }

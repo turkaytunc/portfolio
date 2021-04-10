@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.scss';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Home, Sidebar, HamburgerButton } from 'src/components';
+import { Home, Sidebar, HamburgerButton, DesktopMenu, Projects } from 'src/components';
 
 function App() {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -11,15 +11,19 @@ function App() {
       <div className="app-container">
         <div className="app-mobile-menu">
           <HamburgerButton setShowSidebar={setShowSidebar} />
-          {showSidebar && <Sidebar />}
+          <Sidebar showSidebar={showSidebar} />
         </div>
 
+        <div className="app-desktop-menu">
+          <DesktopMenu />
+        </div>
         <main className="app-main">
           <Switch>
             <Route exact path="/" component={Home} />
+            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/articles" component={() => <div data-testid="articles-container">Articles</div>} />
           </Switch>
         </main>
-        <footer>footer</footer>
       </div>
     </BrowserRouter>
   );

@@ -7,19 +7,35 @@
   width: 200px;
   background-color: scss.$sidebar-background-color;
   opacity: 0.8;
-  animation: trans 1s cubic-bezier(0.02, 0.5, 0.03, 1) forwards;
   padding: 10rem 4rem;
   height: 100vh;
   z-index: 1;
   border-bottom-right-radius: 3px;
+  a {
+    color: scss.$text-color-dark;
+    &:visited {
+      color: scss.$text-color-dark;
+    }
+    &:active {
+      color: orangered;
+    }
+  }
 }
 
-@keyframes fadeIn {
+.sidebar-in {
+  animation: trans 1.2s cubic-bezier(0.02, 0.5, 0.03, 1) forwards;
+}
+
+.sidebar-out {
+  animation: transback 1s cubic-bezier(0.2, 0.2, 0.1, 0.8) forwards;
+}
+
+@keyframes transback {
   from {
-    opacity: 0;
+    transform: translateX(0);
   }
   to {
-    opacity: 1;
+    transform: translateX(-400px);
   }
 }
 

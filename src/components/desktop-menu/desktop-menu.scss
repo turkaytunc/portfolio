@@ -1,0 +1,14 @@
+@use '/src/scss';
+
+.desktop-menu-container {
+  position: sticky;
+  background-color: scss.$background-color-dark;
+  top: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
