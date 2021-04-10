@@ -3,8 +3,22 @@
   padding: 2rem;
 }
 
+.app-desktop-menu {
+  display: none;
+}
+
 @media screen and (min-width: 800px) {
+  .app-container {
+    display: grid;
+    grid-template-areas:
+      'desktop-aside main main main'
+      'desktop-aside main main main'
+      'footer footer footer footer';
+  }
   .app-mobile-menu {
     display: none;
+  }
+  .app-desktop-menu {
+    display: block;
   }
 }

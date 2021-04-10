@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.scss';
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { Home, Sidebar, HamburgerButton } from 'src/components';
+import { Home, Sidebar, HamburgerButton, DesktopMenu } from 'src/components';
 
 function App() {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -14,6 +14,9 @@ function App() {
           <Sidebar showSidebar={showSidebar} />
         </div>
 
+        <div className="app-desktop-menu">
+          <DesktopMenu />
+        </div>
         <main className="app-main">
           <Switch>
             <Route exact path="/" component={Home} />

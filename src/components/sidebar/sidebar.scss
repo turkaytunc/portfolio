@@ -11,6 +11,9 @@
   height: 100vh;
   z-index: 1;
   border-bottom-right-radius: 3px;
+  a {
+    color: scss.$text-color-dark;
+  }
 }
 
 .sidebar-in {
