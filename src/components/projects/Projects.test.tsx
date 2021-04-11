@@ -5,6 +5,6 @@ describe('<Projects />', () => {
   it('should render without crashing', async () => {
     render(<Projects />);
 
-    expect(await screen.findByText('Projects')).toBeInTheDocument();
+    expect(await (await screen.findAllByText('random content')).length).toBe(10);
   });
 });

@@ -6,7 +6,7 @@ const Projects = () => {
   const arr = [];
 
   for (let i = 0; i < 10; i += 1) {
-    arr.push(<Project content="random content" />);
+    arr.push(<Project key={Math.random()} content="random content" />);
   }
 
   return (
