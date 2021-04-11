@@ -12,3 +12,19 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.desktop-menu-photo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop-menu-name {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.desktop-menu-title {
+  font-size: 0.9rem;
+}
