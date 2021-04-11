@@ -1,15 +1,15 @@
 import React from 'react';
+import Project from './project/Project';
 import './projects.scss';
 
 const Projects = () => {
-  return (
-    <section className="projects-container">
-      Projects
-      <section className="projects-section"> area 1</section>
-      <section className="projects-section"> area 2</section>
-      <section className="projects-section"> area 3</section>
-    </section>
-  );
+  const arr = [];
+
+  for (let i = 0; i < 10; i += 1) {
+    arr.push(<Project content="random content" />);
+  }
+
+  return <section className="projects-container">{arr.map((item) => item)}</section>;
 };
 
 export default Projects;
