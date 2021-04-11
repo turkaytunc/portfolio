@@ -1,8 +1,25 @@
 .projects-container {
   display: flex;
   flex-direction: column;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
   position: relative;
-  padding: 3rem 0 3rem 2rem;
+}
+
+.project-container {
+  margin-top: -10rem;
+  &:first-child {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects-container {
+    gap: 1rem;
+    padding: 3rem 0 3rem 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }

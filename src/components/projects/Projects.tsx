@@ -9,7 +9,22 @@ const Projects = () => {
     arr.push(<Project content="random content" />);
   }
 
-  return <section className="projects-container">{arr.map((item) => item)}</section>;
+  return (
+    <section className="projects-container">
+      <div className="project-container">
+        {arr.map((item, i) => {
+          if (i % 2 === 0) return item;
+          return null;
+        })}
+      </div>
+      <div className="project-container">
+        {arr.map((item, i) => {
+          if (i % 2 !== 0) return item;
+          return null;
+        })}
+      </div>
+    </section>
+  );
 };
 
 export default Projects;

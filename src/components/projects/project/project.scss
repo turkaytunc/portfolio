@@ -1,32 +1,32 @@
 .project-card {
   height: 300px;
-  width: 400px;
-  background-color: coral;
+  width: 370px;
   padding: 1.5rem;
   background: linear-gradient(85deg, #434343, #262626);
-  box-shadow: 0rem -2rem 3rem -2rem #000;
+  box-shadow: 0rem -2.5rem 2rem -2rem #000;
   color: white;
   transition: all 0.2s;
-  animation: scaleUp 1s linear;
+  animation: scaleUp 0.4s linear;
   border-radius: 1rem;
   z-index: 5;
+
   &:not(:first-child) {
     margin-top: -170px;
   }
   &:hover {
-    transform: translateY(-100px) rotate(-7deg);
+    transform: translateY(-75px) rotate(-5deg);
   }
   &:hover:first-child {
-    transform: translateY(0) rotate(-7deg);
+    transform: translateY(-50px) rotate(-5deg);
   }
-  &:hover ~ .card-container {
-    transform: translateY(80px);
+  &:hover ~ .project-card {
+    transform: translateY(100px);
   }
 }
 
 @keyframes scaleUp {
   from {
-    transform: scale(0);
+    transform: scale(0.1);
   }
   to {
     transform: scale(1);
@@ -35,6 +35,11 @@
 
 @media screen and (min-width: 768px) {
   .project-card {
+    height: 300px;
+    width: 400px;
+    padding: 1.5rem;
+    background: linear-gradient(85deg, #434343, #262626);
+    box-shadow: 0rem -2rem 3rem -2rem #000;
     &:not(:first-child) {
       margin-top: -170px;
     }
