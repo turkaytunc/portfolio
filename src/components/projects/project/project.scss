@@ -39,18 +39,18 @@
     width: 400px;
     padding: 1.5rem;
     background: linear-gradient(85deg, #434343, #262626);
-    box-shadow: 0rem -2rem 3rem -2rem #000;
+    box-shadow: -1rem -2rem 1rem -2rem #000;
     &:not(:first-child) {
       margin-top: -170px;
     }
     &:hover {
-      transform: translateY(-100px) rotate(-7deg);
+      transform: translateY(-70px) rotate(-7deg);
     }
     &:hover:first-child {
-      transform: translateY(0) rotate(-7deg);
+      transform: translateY(-20px) rotate(-7deg);
     }
-    &:hover ~ .card-container {
-      transform: translateY(80px);
+    &:hover ~ .project-card {
+      transform: translateY(100px);
     }
   }
 }
