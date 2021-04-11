@@ -1,6 +1,7 @@
 import React from 'react';
 import './desktop-menu.scss';
 import Navbar from '../navbar/Navbar';
+import Footer from '../footer/Footer';
 
 const DesktopMenu = () => {
   return (
@@ -12,7 +13,7 @@ const DesktopMenu = () => {
       <section>
         <Navbar />
       </section>
-      <footer className="desktop-menu-footer"> Footer </footer>
+      <Footer />
     </aside>
   );
 };
