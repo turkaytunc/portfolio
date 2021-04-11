@@ -17,6 +17,7 @@
 @media screen and (min-width: 768px) {
   .navbar-container {
     a {
+      color: scss.$background-color-light;
       &:active {
         color: orangered;
       }
