@@ -1,6 +1,6 @@
 .project-card {
-  height: 300px;
-  width: 370px;
+  height: 400px;
+  width: 300px;
   padding: 1.5rem;
   background: linear-gradient(85deg, #434343, #262626);
   box-shadow: 0rem -2.5rem 2rem -2rem #000;
@@ -9,18 +9,19 @@
   animation: scaleUp 0.4s linear;
   border-radius: 1rem;
   z-index: 5;
+  margin: 0 auto;
 
   &:not(:first-child) {
-    margin-top: -170px;
+    margin-top: -150px;
   }
   &:hover {
-    transform: translateY(-75px) rotate(-5deg);
+    transform: translateY(-50px) rotate(-5deg);
   }
   &:hover:first-child {
     transform: translateY(-50px) rotate(-5deg);
   }
   &:hover ~ .project-card {
-    transform: translateY(100px);
+    transform: translateY(120px);
   }
 }
 
@@ -35,22 +36,34 @@
 
 @media screen and (min-width: 768px) {
   .project-card {
-    height: 300px;
-    width: 400px;
     padding: 1.5rem;
     background: linear-gradient(85deg, #434343, #262626);
-    box-shadow: -1rem -2rem 1rem -2rem #000;
+    box-shadow: -1rem -2rem 2rem -2rem #000;
     &:not(:first-child) {
       margin-top: -170px;
     }
     &:hover {
-      transform: translateY(-70px) rotate(-7deg);
+      transform: translateY(-70px) rotate(-5deg);
     }
     &:hover:first-child {
-      transform: translateY(-20px) rotate(-7deg);
+      transform: translateY(-50px) rotate(-5deg);
+    }
+  }
+}
+
+@media screen and (min-width: 1439px) {
+  .project-card {
+    &:not(:first-child) {
+      margin-top: -220px;
+    }
+    &:hover {
+      transform: translateX(-30px) rotate(-3deg);
+    }
+    &:hover:first-child {
+      transform: translateX(-50px) rotate(-3deg);
     }
     &:hover ~ .project-card {
-      transform: translateY(100px);
+      transform: translateY(180px) translateX(70px);
     }
   }
 }
