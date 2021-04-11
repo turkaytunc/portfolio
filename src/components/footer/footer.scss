@@ -1,0 +1,19 @@
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-icon {
+  fill: #333;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    justify-content: space-around;
+    padding: 0 2rem;
+  }
+  .footer-icon {
+    fill: #ccc;
+  }
+}
