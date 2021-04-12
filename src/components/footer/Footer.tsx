@@ -16,7 +16,7 @@ const Footer = () => {
         </a>
       </section>
       <section className="footer-section">
-        <a href="https://twitter.com/filthycoder" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/turkaytunc" target="_blank" rel="noopener noreferrer">
           <FaGithub className="footer-icon" size="30" />
         </a>
       </section>

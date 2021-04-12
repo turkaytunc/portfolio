@@ -17,6 +17,7 @@ function App() {
         <div className="app-desktop-menu">
           <DesktopMenu />
         </div>
+
         <main className="app-main">
           <Switch>
             <Route exact path="/" component={Home} />
