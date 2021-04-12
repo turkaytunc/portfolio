@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaTwitter, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaTwitter, FaGithub, FaEnvelope } from 'react-icons/fa';
 import './footer.scss';
 
 const Footer = () => {
@@ -18,6 +18,11 @@ const Footer = () => {
       <section className="footer-section">
         <a href="https://twitter.com/filthycoder" target="_blank" rel="noopener noreferrer">
           <FaGithub className="footer-icon" size="30" />
+        </a>
+      </section>
+      <section className="footer-section">
+        <a href="mailto:turkaytunc00@gmail.com" rel="noopener noreferrer">
+          <FaEnvelope className="footer-icon" size="30" />
         </a>
       </section>
     </footer>
