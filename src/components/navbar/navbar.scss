@@ -18,7 +18,7 @@
     a {
       padding-bottom: 0.2rem;
       width: min-content;
-      margin: 2rem 0;
+      margin: 1rem 0;
       color: scss.$background-color-light;
       &:active {
         color: orangered;
@@ -29,7 +29,7 @@
       &:hover {
         color: coral;
         border-bottom: 1px solid coral;
-        margin-bottom: calc(2rem - 1px);
+        margin-bottom: calc(1rem - 1px);
       }
     }
   }
