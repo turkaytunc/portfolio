@@ -20,5 +20,12 @@
     "arrow-body-style": "off",
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off"
-  }
+  },
+  "ignorePatterns": [
+    ".eslintrc.js",
+    "craco.config.js",
+    "tailwind.cheat.config.ts",
+    "tailwind.config.js",
+    "stylelint.config.js"
+  ]
 }

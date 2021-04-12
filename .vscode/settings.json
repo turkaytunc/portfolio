@@ -11,5 +11,9 @@
   "editor.acceptSuggestionOnEnter": "off",
   "editor.wordBasedSuggestions": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.snippetSuggestions": "inline"
+  "editor.snippetSuggestions": "inline",
+
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false
 }
