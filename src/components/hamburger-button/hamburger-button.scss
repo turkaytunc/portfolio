@@ -1,3 +1,5 @@
+@use '/src/scss';
+
 .hamburger-button-container {
   position: fixed;
   right: 1rem;
@@ -8,10 +10,10 @@
   button {
     border: none;
     display: block;
-    background-color: #333;
+    background-color: transparent;
 
     div {
-      background-color: white;
+      background-color: scss.$background-color-dark;
       height: 0.3rem;
       width: 2rem;
       transition: transform 0.2s ease-in-out;
@@ -19,6 +21,10 @@
       &:nth-child(-n + 2) {
         margin-bottom: 0.2rem;
       }
+    }
+    &:focus,
+    &:active {
+      outline: 1px dotted white;
     }
   }
 }

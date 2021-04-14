@@ -1,6 +1,7 @@
 @use '/src/scss';
 
 .app-container {
+  background-color: scss.$background-color-light;
   position: relative;
   padding: 0;
 }
@@ -11,8 +12,6 @@
 
 @media screen and (min-width: 768px) {
   .app-container {
-    background-color: scss.$background-color-light;
-
     display: grid;
     grid-template-columns: 250px 4fr;
     grid-template-areas:
