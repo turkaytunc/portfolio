@@ -6,7 +6,7 @@ const Project = ({ content }: { content: string }) => {
     <div className="project-card">
       <header>Project Name</header>
       {content}
-      <div className="project-image">image</div>
+      <div className="project-image-container">image</div>
       <div>Tech Used</div>
       <div>github and live project</div>
     </div>
