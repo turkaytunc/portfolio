@@ -16,7 +16,7 @@ const Project = ({ zIndex, content, imageSource, githubLink, techs, title, liveP
     <div className="project-card">
       <header>Project Name</header>
       {content}
-      <div className="project-image-container max-h-40 max-w-40 rounded-md overflow-hidden">
+      <div className="project-image-container max-h-40 max-w-40 rounded-md lg:max-h-60 lg:max-w-60 overflow-hidden">
         <img src={`${process.env.PUBLIC_URL}/images/${imageSource}`} alt="project" />
       </div>
       <div>Tech Used</div>
