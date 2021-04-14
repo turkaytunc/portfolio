@@ -5,6 +5,6 @@ describe('<Projects />', () => {
   it('should render without crashing', async () => {
     render(<Projects />);
 
-    expect(await (await screen.findAllByText(/random content/)).length).toBe(15);
+    expect(await (await screen.findAllByText(/Project Name/)).length).toBe(11);
   });
 });
