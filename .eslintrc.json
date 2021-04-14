@@ -13,7 +13,7 @@
   "rules": {
     "linebreak-style": "off",
     "react/jsx-filename-extension": 0,
-    "import/extensions": ["error", "never"],
+    "import/extensions": ["off"],
     "no-unused-vars": "off",
     "no-use-before-define": "off",
     "import/no-unresolved": "off",
