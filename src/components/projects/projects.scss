@@ -11,6 +11,7 @@
   margin-top: 1rem;
   justify-content: center;
   align-items: center;
+  width: 100%;
   &:first-child {
     margin-top: 5rem;
   }
@@ -19,11 +20,11 @@
 @media screen and (min-width: 768px) {
   .projects-container {
     padding-top: 5rem;
-    padding-left: 2rem;
+    padding-left: 3rem;
   }
 
   .project-container {
-    margin-top: -10rem;
+    margin-top: 1rem;
     &:first-child {
       margin-top: 1rem;
     }
@@ -33,8 +34,7 @@
 @media screen and (min-width: 1024px) {
   .projects-container {
     display: grid;
-
-    grid-template-columns: repeat(2, minmax(220px, 1fr));
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
     grid-template-rows: 1fr 1fr;
   }
   .project-container {
@@ -45,11 +45,16 @@
   }
 }
 
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 1600px) {
   .projects-container {
     display: grid;
 
-    grid-template-columns: repeat(4, minmax(220px, 1fr));
+    grid-template-columns: repeat(4, 300px);
+    gap: 1rem;
+    grid-template-rows: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 5rem;
   }
   .project-container {
     margin-top: 1rem;

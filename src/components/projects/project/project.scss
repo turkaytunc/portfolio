@@ -1,7 +1,7 @@
 .project-card {
   height: 400px;
   width: 300px;
-  padding: 1.5rem;
+  padding: 1rem;
   background: linear-gradient(85deg, #434343, #262626);
   box-shadow: 1.8rem -2rem 1rem -2rem #000;
   color: white;
@@ -36,7 +36,7 @@
 
 @media screen and (min-width: 768px) {
   .project-card {
-    padding: 1.5rem;
+    padding: 1rem;
     background: linear-gradient(85deg, #434343, #262626);
     box-shadow: -1rem -1rem 2rem -2rem #000;
     &:not(:first-child) {
