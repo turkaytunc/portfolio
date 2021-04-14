@@ -5,7 +5,7 @@ import './projects.scss';
 const Projects = () => {
   const arr = [];
 
-  for (let i = 0; i < 14; i += 1) {
+  for (let i = 0; i < 16; i += 1) {
     arr.push(<Project key={Math.random()} content={`random content ${i}`} />);
   }
 
