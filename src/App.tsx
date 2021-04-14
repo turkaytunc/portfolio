@@ -22,7 +22,15 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/projects" component={Projects} />
-            <Route exact path="/articles" component={() => <div data-testid="articles-container">Articles</div>} />
+            <Route
+              exact
+              path="/articles"
+              component={() => (
+                <div style={{ paddingBottom: '100vh' }} data-testid="articles-container">
+                  Articles
+                </div>
+              )}
+            />
           </Switch>
         </main>
       </div>
