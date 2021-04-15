@@ -1,9 +1,21 @@
 @use '/src/scss';
 
+.home-container {
+  color: scss.$text-color-dark;
+  padding: 2rem 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p {
+    text-indent: 2rem;
+    white-space: pre-wrap;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .home-container {
-    color: scss.$text-color-dark;
-    padding-left: 1rem;
-    padding-top: 1rem;
+    padding-top: 10rem;
   }
 }
