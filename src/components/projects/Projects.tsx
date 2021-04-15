@@ -7,6 +7,47 @@ const Projects = () => {
     <div className="projects-container">
       <div className="projects-row">
         <Project
+          title="Space Shooter"
+          imageSource="pelp.png"
+          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+          content="this is a content"
+          githubLink="https://github.com/turkaytunc/Racon"
+          liveProjectLink="https://turkaytunc.itch.io/racon"
+        />
+        <Project
+          title="Space Shooter"
+          imageSource="e-secim.png"
+          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+          content="this is a content"
+          githubLink="https://github.com/turkaytunc/Racon"
+          liveProjectLink="https://turkaytunc.itch.io/racon"
+        />
+        <Project
+          title="Space Shooter"
+          imageSource="mein-shop.png"
+          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+          content="this is a content"
+          githubLink="https://github.com/turkaytunc/Racon"
+          liveProjectLink="https://turkaytunc.itch.io/racon"
+        />
+        <Project
+          title="Space Shooter"
+          imageSource="redux-like.png"
+          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+          content="this is a content"
+          githubLink="https://github.com/turkaytunc/Racon"
+          liveProjectLink="https://turkaytunc.itch.io/racon"
+        />
+        <Project
+          title="Space Shooter"
+          imageSource="weather-app.png"
+          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+          content="this is a content"
+          githubLink="https://github.com/turkaytunc/Racon"
+          liveProjectLink="https://turkaytunc.itch.io/racon"
+        />
+        {/* fix above  links */}
+        <Project
           title="Markdown Previewer"
           imageSource="md-prev.png"
           techs={['Sass', 'Regex', 'Reactjs', 'TravisCI', 'Bash', 'Jest']}
@@ -51,48 +92,6 @@ const Projects = () => {
         <Project
           title="Space Shooter"
           imageSource="space-shooter.png"
-          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
-          content="this is a content"
-          githubLink="https://github.com/turkaytunc/Racon"
-          liveProjectLink="https://turkaytunc.itch.io/racon"
-        />
-        {/* fix bottom projects links */}
-
-        <Project
-          title="Space Shooter"
-          imageSource="e-secim.png"
-          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
-          content="this is a content"
-          githubLink="https://github.com/turkaytunc/Racon"
-          liveProjectLink="https://turkaytunc.itch.io/racon"
-        />
-        <Project
-          title="Space Shooter"
-          imageSource="mein-shop.png"
-          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
-          content="this is a content"
-          githubLink="https://github.com/turkaytunc/Racon"
-          liveProjectLink="https://turkaytunc.itch.io/racon"
-        />
-        <Project
-          title="Space Shooter"
-          imageSource="pelp.png"
-          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
-          content="this is a content"
-          githubLink="https://github.com/turkaytunc/Racon"
-          liveProjectLink="https://turkaytunc.itch.io/racon"
-        />
-        <Project
-          title="Space Shooter"
-          imageSource="redux-like.png"
-          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
-          content="this is a content"
-          githubLink="https://github.com/turkaytunc/Racon"
-          liveProjectLink="https://turkaytunc.itch.io/racon"
-        />
-        <Project
-          title="Space Shooter"
-          imageSource="weather-app.png"
           techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
           content="this is a content"
           githubLink="https://github.com/turkaytunc/Racon"
