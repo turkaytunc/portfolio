@@ -23,3 +23,9 @@ body {
     background-color: scss.$background-color-light;
   }
 }
+
+@media screen and (min-width: 3840px) {
+  html {
+    font-size: 32px;
+  }
+}
