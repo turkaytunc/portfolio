@@ -49,13 +49,6 @@
     "liveProjectLink": "https://turkaytunc.github.io/study-timer/"
   },
   {
-    "title": "Random Quote Machine",
-    "imageSource": "random-quote-machine.png",
-    "techs": ["Sass", "Jest", "Reactjs", "TravisCI", "Coveralls"],
-    "githubLink": "https://github.com/turkaytunc/random-quote-machine",
-    "liveProjectLink": "https://turkaytunc.github.io/random-quote-machine/"
-  },
-  {
     "title": "Restful API",
     "imageSource": "rest.jpg",
     "techs": ["MongoDB", "Mongoose", "Nodejs", "Javascript"],
@@ -73,5 +66,12 @@
     "techs": ["GIMP", "Aseprite", "Unity", "C#", "GLSL"],
     "githubLink": "https://github.com/turkaytunc/Racon",
     "liveProjectLink": "https://turkaytunc.itch.io/racon"
+  },
+  {
+    "title": "Random Quote Machine",
+    "imageSource": "random-quote-machine.png",
+    "techs": ["Sass", "Jest", "Reactjs", "TravisCI", "Coveralls"],
+    "githubLink": "https://github.com/turkaytunc/random-quote-machine",
+    "liveProjectLink": "https://turkaytunc.github.io/random-quote-machine/"
   }
 ]

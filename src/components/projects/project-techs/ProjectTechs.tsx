@@ -1,10 +1,13 @@
 import React from 'react';
+import './project-techs.scss';
 
 const ProjectTechs = ({ techs }: { techs: string[] }) => {
   return (
-    <div>
+    <div className="project-techs-container">
       {techs.map((item) => (
-        <div key={Math.random()}>{item}</div>
+        <div className="project-tech" key={Math.random()}>
+          {item}
+        </div>
       ))}
     </div>
   );
