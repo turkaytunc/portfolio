@@ -7,41 +7,41 @@ const Projects = () => {
     <div className="projects-container">
       <div className="projects-row">
         <Project
-          title="Space Shooter"
+          title="Pelp"
           imageSource="pelp.png"
-          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+          techs={['Docker', 'TravisCI', 'Reactjs', 'Jest', 'PostgreSql', 'Typescript', 'Heroku', 'Nodejs']}
           content="this is a content"
           githubLink="https://github.com/turkaytunc/Racon"
           liveProjectLink="https://turkaytunc.itch.io/racon"
         />
         <Project
-          title="Space Shooter"
+          title="E-Secim"
           imageSource="e-secim.png"
-          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+          techs={['TravisCI', 'Reactjs', 'Jest', 'Typescript', 'Sass']}
           content="this is a content"
           githubLink="https://github.com/turkaytunc/Racon"
           liveProjectLink="https://turkaytunc.itch.io/racon"
         />
         <Project
-          title="Space Shooter"
+          title="Mein Shop"
           imageSource="mein-shop.png"
-          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+          techs={['Reactjs', 'Jest', 'Javascript', 'Redux']}
           content="this is a content"
           githubLink="https://github.com/turkaytunc/Racon"
           liveProjectLink="https://turkaytunc.itch.io/racon"
         />
         <Project
-          title="Space Shooter"
+          title="Redux-like"
           imageSource="redux-like.png"
-          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+          techs={['Reactjs', 'Typescript']}
           content="this is a content"
           githubLink="https://github.com/turkaytunc/Racon"
           liveProjectLink="https://turkaytunc.itch.io/racon"
         />
         <Project
-          title="Space Shooter"
+          title="Wapp"
           imageSource="weather-app.png"
-          techs={['GIMP', 'Aseprite', 'Unity', 'C#', 'GLSL']}
+          techs={['Redux', 'Reactjs', 'Javascriptscript']}
           content="this is a content"
           githubLink="https://github.com/turkaytunc/Racon"
           liveProjectLink="https://turkaytunc.itch.io/racon"
@@ -50,7 +50,7 @@ const Projects = () => {
         <Project
           title="Markdown Previewer"
           imageSource="md-prev.png"
-          techs={['Sass', 'Regex', 'Reactjs', 'TravisCI', 'Bash', 'Jest']}
+          techs={['Sass', 'Regex', 'Reactjs', 'TravisCI', 'Jest']}
           content="this is a content"
           githubLink="https://github.com/turkaytunc/md-prev"
           liveProjectLink="https://turkaytunc.github.io/md-prev/"
@@ -67,7 +67,7 @@ const Projects = () => {
         <Project
           title="Random Quote Machine"
           imageSource="random-quote-machine.png"
-          techs={['Sass', 'Jest', 'Reactjs', 'TravisCI', 'Coveralls', 'fetchAPI']}
+          techs={['Sass', 'Jest', 'Reactjs', 'TravisCI', 'Coveralls']}
           content="this is a content"
           githubLink="https://github.com/turkaytunc/random-quote-machine"
           liveProjectLink="https://turkaytunc.github.io/random-quote-machine/"
@@ -84,7 +84,7 @@ const Projects = () => {
         <Project
           title="First Person Character Controller"
           imageSource="fps-controller.png"
-          techs={['C#', 'Unity', 'GLSL']}
+          techs={['C#', 'Unity']}
           content="this is a content"
           githubLink="https://github.com/turkaytunc/3D-character-controller"
         />
