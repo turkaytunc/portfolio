@@ -23,9 +23,17 @@ const Project = ({ zIndex, imageSource, githubLink, techs, title, liveProjectLin
           <div key={Math.random()}>{item}</div>
         ))}
       </div>
-      <div>
-        <div>{githubLink}</div>
-        <div>{liveProjectLink}</div>
+      <div className="project-links-container">
+        <div>
+          <a href={githubLink} target="_blank" rel="noopener noreferrer">
+            See code on Github
+          </a>
+        </div>
+        <div>
+          <a href={liveProjectLink} target="_blank" rel="noopener noreferrer">
+            Go to live project
+          </a>
+        </div>
       </div>
     </div>
   );

@@ -34,6 +34,35 @@
   justify-content: center;
 }
 
+.project-links-container {
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: space-around;
+  div {
+    border: 1px solid white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+
+    &:hover {
+      animation: button-fill-anim 300ms linear forwards;
+    }
+  }
+}
+
+@keyframes button-fill-anim {
+  0% {
+    background-color: transparent;
+    color: white;
+  }
+
+  100% {
+    background-color: white;
+    color: #333;
+  }
+}
+
 @keyframes scaleUp {
   from {
     transform: scale(0.1);
