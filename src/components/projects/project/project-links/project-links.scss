@@ -1,11 +1,12 @@
 .project-links-container {
   display: flex;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   justify-content: space-around;
   height: 1.8rem;
+  margin: 1rem 0;
 
   div {
-    border: 1px solid white;
+    border: 1px solid #ccc;
     padding: 0.2rem 0.5rem;
     border-radius: 5px;
     background-color: transparent;

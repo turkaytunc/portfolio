@@ -1,6 +1,6 @@
 import React from 'react';
-import ProjectLinks from '../project-links/ProjectLinks';
-import ProjectTechs from '../project-techs/ProjectTechs';
+import ProjectLinks from './project-links/ProjectLinks';
+import ProjectTechs from './project-techs/ProjectTechs';
 import './project.scss';
 
 type ProjectProp = {
@@ -15,8 +15,8 @@ type ProjectProp = {
 const Project = ({ zIndex, imageSource, githubLink, techs, title, liveProjectLink }: ProjectProp) => {
   return (
     <div className="project-card" style={{ zIndex: zIndex! }}>
-      <header>{title}</header>
-      <div className="project-image-container max-h-36 max-w-36 rounded-md lg:max-h-60 lg:max-w-60 overflow-hidden">
+      <header className="text-md md:text-2xl mb-5">{title}</header>
+      <div className="project-image-container max-h-40 max-w-40 rounded-md overflow-hidden mb-5">
         <img src={`${process.env.PUBLIC_URL}/images/${imageSource}`} alt="project" />
       </div>
       <ProjectTechs techs={techs} />
