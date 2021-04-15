@@ -10,7 +10,7 @@ type ProjectProp = {
   zIndex?: number;
 };
 
-const Project = ({ zIndex = 0, imageSource, githubLink, techs, title, liveProjectLink }: ProjectProp) => {
+const Project = ({ zIndex, imageSource, githubLink, techs, title, liveProjectLink }: ProjectProp) => {
   return (
     <div className="project-card" style={{ zIndex: zIndex! }}>
       <header>{title}</header>

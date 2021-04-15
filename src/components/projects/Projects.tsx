@@ -6,9 +6,10 @@ import './projects.scss';
 const Projects = () => {
   return (
     <div className="projects-container">
-      <div className="projects-row">
+      <div className="projects-row" data-testid="projects-row">
         {projectsData.map((item) => (
           <Project
+            key={Math.random()}
             title={item.title}
             imageSource={item.imageSource}
             techs={item.techs}
