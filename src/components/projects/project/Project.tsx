@@ -13,7 +13,7 @@ type ProjectProp = {
 const Project = ({ zIndex = 0, imageSource, githubLink, techs, title, liveProjectLink }: ProjectProp) => {
   return (
     <div className="project-card" style={{ zIndex: zIndex! }}>
-      <header>Project Name</header>
+      <header>{title}</header>
 
       <div className="project-image-container max-h-36 max-w-36 rounded-md lg:max-h-60 lg:max-w-60 overflow-hidden">
         <img src={`${process.env.PUBLIC_URL}/images/${imageSource}`} alt="project" />
@@ -25,7 +25,7 @@ const Project = ({ zIndex = 0, imageSource, githubLink, techs, title, liveProjec
       </div>
       <div>
         <div>{githubLink}</div>
-        <div>{}</div>
+        <div>{liveProjectLink}</div>
       </div>
     </div>
   );

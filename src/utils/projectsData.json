@@ -10,29 +10,29 @@
     "title": "E-Secim",
     "imageSource": "e-secim.png",
     "techs": ["TravisCI", "Reactjs", "Jest", "Typescript", "Sass"],
-    "githubLink": "",
-    "liveProjectLink": ""
+    "githubLink": "https://github.com/turkaytunc/e-secim",
+    "liveProjectLink": "https://turkaytunc.github.io/e-secim/"
   },
   {
     "title": "Mein Shop",
     "imageSource": "mein-shop.png",
     "techs": ["Reactjs", "Jest", "Javascript", "Redux"],
-    "githubLink": "",
+    "githubLink": "https://github.com/turkaytunc/meinshop-frontend",
     "liveProjectLink": ""
   },
   {
     "title": "Redux-like",
     "imageSource": "redux-like.png",
     "techs": ["Reactjs", "Typescript"],
-    "githubLink": "",
+    "githubLink": "https://github.com/turkaytunc/redux-like",
     "liveProjectLink": ""
   },
   {
     "title": "Wapp",
     "imageSource": "weather-app.png",
-    "techs": ["Redux", "Reactjs", "Javascriptscript"],
-    "githubLink": "",
-    "liveProjectLink": ""
+    "techs": ["Redux", "Reactjs", "Javascript"],
+    "githubLink": "https://github.com/turkaytunc/weather-report",
+    "liveProjectLink": "https://turkaytunc.github.io/weather-report/"
   },
   {
     "title": "Markdown Previewer",
@@ -58,7 +58,7 @@
   {
     "title": "Restful API",
     "imageSource": "rest.jpg",
-    "techs": ["MongoDB", "Mongoose", "Nodejs"],
+    "techs": ["MongoDB", "Mongoose", "Nodejs", "Javascript"],
     "githubLink": "https://github.com/turkaytunc/rest-api-practice"
   },
   {
