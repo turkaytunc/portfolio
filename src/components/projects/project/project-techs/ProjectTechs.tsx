@@ -3,7 +3,7 @@ import './project-techs.scss';
 
 const ProjectTechs = ({ techs }: { techs: string[] }) => {
   return (
-    <div className="project-techs-container">
+    <div className="h-1/6 project-techs-container">
       {techs.map((item) => (
         <div className="project-tech" key={Math.random()}>
           {item}
