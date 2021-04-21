@@ -5,6 +5,6 @@ describe('<Projects />', () => {
   it('should render without crashing', async () => {
     render(<Projects />);
 
-    expect(await (await screen.findByTestId('projects-row')).childElementCount).toBe(11);
+    expect(await (await screen.findByTestId('projects-row')).childElementCount).toBe(12);
   });
 });

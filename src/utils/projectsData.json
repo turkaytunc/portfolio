@@ -7,6 +7,13 @@
     "liveProjectLink": "https://turkaytunc.github.io/pelp/"
   },
   {
+    "title": "Mini Auth",
+    "imageSource": "node-mini-auth.png",
+    "techs": ["Docker", "Javascript", "Jest", "Mongo", "Expressjs"],
+    "githubLink": "https://github.com/turkaytunc/node-mini-auth",
+    "liveProjectLink": ""
+  },
+  {
     "title": "E-Secim",
     "imageSource": "e-secim.png",
     "techs": ["TravisCI", "Reactjs", "Jest", "Typescript", "Sass"],
@@ -35,20 +42,6 @@
     "liveProjectLink": "https://turkaytunc.github.io/weather-report/"
   },
   {
-    "title": "Markdown Previewer",
-    "imageSource": "md-prev.png",
-    "techs": ["Sass", "Regex", "Reactjs", "TravisCI", "Jest"],
-    "githubLink": "https://github.com/turkaytunc/md-prev",
-    "liveProjectLink": "https://turkaytunc.github.io/md-prev/"
-  },
-  {
-    "title": "Study Timer",
-    "imageSource": "study-timer.png",
-    "techs": ["Sass", "Jest", "Reactjs", "TravisCI", "Codecov"],
-    "githubLink": "https://github.com/turkaytunc/study-timer",
-    "liveProjectLink": "https://turkaytunc.github.io/study-timer/"
-  },
-  {
     "title": "Restful API",
     "imageSource": "rest.jpg",
     "techs": ["MongoDB", "Mongoose", "Nodejs", "Javascript"],
@@ -73,5 +66,19 @@
     "techs": ["Sass", "Jest", "Reactjs", "TravisCI", "Coveralls"],
     "githubLink": "https://github.com/turkaytunc/random-quote-machine",
     "liveProjectLink": "https://turkaytunc.github.io/random-quote-machine/"
+  },
+  {
+    "title": "Markdown Previewer",
+    "imageSource": "md-prev.png",
+    "techs": ["Sass", "Regex", "Reactjs", "TravisCI", "Jest"],
+    "githubLink": "https://github.com/turkaytunc/md-prev",
+    "liveProjectLink": "https://turkaytunc.github.io/md-prev/"
+  },
+  {
+    "title": "Study Timer",
+    "imageSource": "study-timer.png",
+    "techs": ["Sass", "Jest", "Reactjs", "TravisCI", "Codecov"],
+    "githubLink": "https://github.com/turkaytunc/study-timer",
+    "liveProjectLink": "https://turkaytunc.github.io/study-timer/"
   }
 ]
